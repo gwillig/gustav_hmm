@@ -1,0 +1,14 @@
+digraph  {
+sunny;
+rainy;
+H [color=purple, fontcolor=purple];
+G [color=purple, fontcolor=purple];
+sunny -> sunny  [color=black, fontcolor=black, key=0, label="0.8", weight="0.8"];
+sunny -> rainy  [color=black, fontcolor=black, key=0, label="0.2", weight="0.2"];
+sunny -> H  [color=" magenta", fontcolor=" magenta", key=0, label="0.8", weight="0.8"];
+sunny -> G  [color=" magenta", fontcolor=" magenta", key=0, label="0.2", weight="0.2"];
+rainy -> sunny  [color=" grey", fontcolor=" grey", key=0, label="0.4", weight="0.4"];
+rainy -> rainy  [color=" grey", fontcolor=" grey", key=0, label="0.6", weight="0.6"];
+rainy -> H  [color=" red", fontcolor=" red", key=0, label="0.4", weight="0.4"];
+rainy -> G  [color=" red", fontcolor=" red", key=0, label="0.6", weight="0.6"];
+}
